@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is a TITLE!</title>
+</head>
+<body>
+    <!-- Anything HERE is a comment -->
+    <h1>This is a Heading 1</h1>
+    <h2>This is a heading 2</h2>
+    <h3>This is a heading 3</h3>
+    <h4>This is a heading 4</h4>
+    <h5>This is a heading 5</h5>
+    <h6>This is a heading 6</h6>
+
+    <p>This is a paragraph!</p>
+    <p>This is line two</p>
+    <p>This is line three</p>
+
+    <p><strong>This is text that is in bold style</strong></p>
+    <p><em>This is text that is in italics style</em></p>
+
+    <h1>LISTS</h1>
+
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <ul>
+        <li>First item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+
+    <ol>
+        <li>item one</li>
+        <li>item two</li>
+        <ul>
+            <li>I am nested inside</li>
+            <li>Also nested</li>
+            <ol>woah! I am really nested</ol>
+        </ul>
+    </ol>
+
+    <h1>Divs and Spans</h1>
+
+    <div class="groupone">
+        <h1>Group One</h1>
+        <p>I want to <span>be together in</span> group one</p>
+    </div>
+
+    <h1>Attributes</h1>
+
+    <img src="django.png" alt="">
+
+    <a href="NewHTMLpracticePage.html">Click me!</a>
+
+    <table border="1">
+        <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+        </thead>
+        <tr>
+            <td>250</td>
+            <td>Red</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Blue</td>
+            <td>France</td>
+        </tr>
+    </table>
+
+    <h1>INPUT</h1>
+
+      <form>
+        <h1>Log In</h1>
+        <h2>Please input your email and password</h2>
+
+        <input type="email" name="useremail" value="EMAIL HERE">
+        <input type="password" name="password" value="">
+        <input type="submit" name="" value="Click ME!">
+      </form>
+
+      <form>
+        <h1>Choose Color!</h1>
+        <h2>Click on button</h2>
+
+        <input type="color" name="" value="">
+      </form>
+
+      <form>
+        <h2>Enter sometext</h2>
+
+        <input type="text" name="" value="Text goes here">
+      </form>
+
+      <h1>FORMS AND LABELS</h1>
+
+      <form>
+        <p>Enter email:</p>
+        <input type="email" name="useremail" value="">
+        <input type="submit" name="" value="Submit">
+      </form>
+
+      <form action="https://www.facebook.com" method="get">
+        <p>Enter text and take me to FB:</p>
+        <input type="text" name="userinput" value="">
+        <input type="submit" name="" value="Submit">
+      </form>
+
+      <form>
+        <label for="userinput">Enter Input:</label>
+        <input id="userinput" type="text" name="" value="Hello">
+      </form>
+
+      <form>
+        <label for="userinput">Enter Input:</label>
+        <input id="userinput" type="text" name="" placeholder="Enter text here" required>
+      </form>
+
+      <form>
+        <input id="userinput" type="text" name="" placeholder="not Required">
+        <input id="userinput" type="text" name="" placeholder="Required" required>
+        <input type="submit" name="" value="Submit">
+      </form>
+
+      <h1>FORMS AND SELECTIONS</h1>
+
+      <h1>HOTEL FEEDBACK FORM</h1>
+
+      <form method="get">
+        <h2>Are you from inside the US? or outside the country?</h2>
+
+        <label for="inusa">Inside: </label>
+        <input id="inusa" type="radio" name="loc" value="inside">
+
+        <label for="outusa">Outside: </label>
+        <input id="outusa" type="radio" name="loc" value="outside">
+
+
+        <h2>How was your service?</h2>
+
+        <select name="stars">
+          <option value="Great">3</option>
+          <option value="Okay">2</option>
+          <option value="Bad">1</option>
+        </select>
+
+        <h2>Any other feedback?</h2>
+
+        <textarea name="mytext" rows="8" cols="80"></textarea>
+
+        <input type="submit" name="" value="Submit">
+      </form>
+
+</body>
+</html>

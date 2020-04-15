@@ -1,0 +1,33 @@
+body{
+  font-family: 'Libre Baskerville';
+  color: white;
+  background-color: #737372;
+  text-align: center;
+  border: 60px solid #c4c4be;
+  border-top: 0px;
+  margin: 0px;
+}
+
+
+#Lorem{
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+#button{
+  border-radius: 25px;
+  background: orange;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.2em;
+}
+
+form{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}

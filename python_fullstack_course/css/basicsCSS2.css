@@ -1,0 +1,23 @@
+/* selected tag{
+  property: value;
+} */
+body{
+  background: url(https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-repeat: repeat;
+}
+
+div{
+  background: blue;
+  border-color: orange;
+  border-width: 4px;
+  border-style: double;
+}
+
+p{
+  color: yellow
+}
+
+span{
+  background: red;
+  color: black;
+}

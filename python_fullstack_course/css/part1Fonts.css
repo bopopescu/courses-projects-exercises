@@ -1,0 +1,27 @@
+h1{
+  font-family: "Arial";
+}
+
+
+body{
+  font-size: 20px;
+}
+#two{
+  font-size: 1.5em;
+}
+
+#two{
+  font-family: 'Trade Winds';
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+   font-family: 'AlexBrushRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+/* 1em = 16px -this is usually default font-size!
+2em = 32px */

@@ -1,0 +1,39 @@
+#header{
+  font-family: 'Trade Winds';
+  text-align: center;
+}
+
+
+.art{
+  margin: auto;
+}
+
+td{
+  height: 250px;
+  width: 100px;
+  border: 5px solid white;
+}
+
+#color1{
+  background: #45F0DF;
+}
+
+
+#color2{
+  background: #AFCBFF;
+}
+
+
+#color3{
+  background: #256EFF;
+}
+
+
+#color4{
+  background: #290CAF;
+}
+
+
+#color5{
+  background: #9848E0;
+}
